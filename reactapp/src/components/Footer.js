@@ -26,9 +26,21 @@ export default function FixedBottomNavigation() {
             setValue(newValue);
           }}
         >
-          <BottomNavigationAction label="GitHub" icon={<GitHubIcon />} />
-          <BottomNavigationAction label="LinkedIn" icon={<LinkedInIcon />} />
-          <BottomNavigationAction label="Email" icon={<EmailIcon />} />
+          <BottomNavigationAction
+            label="GitHub"
+            icon={<GitHubIcon />}
+            href="https://github.com/PDKetchum/"
+          />
+          <BottomNavigationAction
+            label="LinkedIn"
+            icon={<LinkedInIcon />}
+            href="https://www.linkedin.com/in/pachia-xiong-a33274110/"
+          />
+          <BottomNavigationAction
+            label="Email"
+            icon={<EmailIcon />}
+            href="mailto:pxiong265@gmail.com"
+          />
         </BottomNavigation>
       </Paper>
     </Box>
