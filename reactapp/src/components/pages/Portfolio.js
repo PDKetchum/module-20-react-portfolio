@@ -13,7 +13,7 @@ export default function Portfolio() {
           <CardMedia
             component="img"
             height="140"
-            image="/images/AniMeal.png"
+            image="./images/AniMeal.png"
             alt="AniMeal ScreenShot"
           />
           <CardContent>
@@ -45,7 +45,7 @@ export default function Portfolio() {
           <CardMedia
             component="img"
             height="140"
-            image="/images/BackStock.png"
+            image="./images/BackStock.png"
             alt="BackStock Screenshot"
           />
           <CardContent>
@@ -78,7 +78,7 @@ export default function Portfolio() {
           <CardMedia
             component="img"
             height="140"
-            image="/images/TechBlog.png"
+            image="./images/TechBlog.png"
             alt="Tech Blog Screenshot"
           />
           <CardContent>
@@ -110,7 +110,7 @@ export default function Portfolio() {
           <CardMedia
             component="img"
             height="140"
-            image="/images/Quiz.png"
+            image="./images/Quiz.png"
             alt="Javascript Quiz Screenshot"
           />
           <CardContent>
@@ -140,7 +140,7 @@ export default function Portfolio() {
           <CardMedia
             component="img"
             height="140"
-            image="/images/Weather.png"
+            image="./images/Weather.png"
             alt="Weather Dashboard Screenshot"
           />
           <CardContent>
@@ -171,7 +171,7 @@ export default function Portfolio() {
           <CardMedia
             component="img"
             height="140"
-            image="/images/Notetaker.png"
+            image="./images/Notetaker.png"
             alt="Notetaker Screenshot"
           />
           <CardContent>
