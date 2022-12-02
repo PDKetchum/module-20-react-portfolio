@@ -3,13 +3,13 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
-import { CardActionArea } from "@mui/material";
+import { CardActionArea, CardActions, Button, Grid } from "@mui/material";
 
 export default function Portfolio() {
   return (
-    <div>
+    <Grid>
       <Card sx={{ maxWidth: 345 }}>
-        <CardActionArea>
+        <CardActionArea href="https://pdketchum.github.io/project-1-AniMeal/">
           <CardMedia
             component="img"
             height="140"
@@ -30,9 +30,18 @@ export default function Portfolio() {
             </Typography>
           </CardContent>
         </CardActionArea>
+        <CardActions>
+          <Button
+            size="small"
+            color="primary"
+            href="https://github.com/PDKetchum/project-1-AniMeal"
+          >
+            GitHub Repo
+          </Button>
+        </CardActions>
       </Card>
       <Card sx={{ maxWidth: 345 }}>
-        <CardActionArea>
+        <CardActionArea href="https://backstock-23.herokuapp.com/">
           <CardMedia
             component="img"
             height="140"
@@ -54,9 +63,18 @@ export default function Portfolio() {
             </Typography>
           </CardContent>
         </CardActionArea>
+        <CardActions>
+          <Button
+            size="small"
+            color="primary"
+            href="https://github.com/PDKetchum/project-2-BackStock"
+          >
+            GitHub Repo
+          </Button>
+        </CardActions>
       </Card>
       <Card sx={{ maxWidth: 345 }}>
-        <CardActionArea>
+        <CardActionArea href="https://pdketchum-module-14-tech-blog.herokuapp.com/">
           <CardMedia
             component="img"
             height="140"
@@ -77,64 +95,108 @@ export default function Portfolio() {
             </Typography>
           </CardContent>
         </CardActionArea>
+        <CardActions>
+          <Button
+            size="small"
+            color="primary"
+            href="https://github.com/PDKetchum/module-14-tech-blog"
+          >
+            GitHub Repo
+          </Button>
+        </CardActions>
       </Card>
       <Card sx={{ maxWidth: 345 }}>
-        <CardActionArea>
+        <CardActionArea href="https://pdketchum.github.io/module-4-javascript-quiz/">
           <CardMedia
             component="img"
             height="140"
-            image="/static/images/cards/contemplative-reptile.jpg"
-            alt="green iguana"
+            image="/images/Quiz.png"
+            alt="Javascript Quiz Screenshot"
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              Lizard
+              Quiz
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Lizards are a widespread group of squamate reptiles, with over
-              6,000 species, ranging across all continents except Antarctica
+              JavaScript timed quiz.
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              Technologies used: Javascript, HTML, CSS.
             </Typography>
           </CardContent>
         </CardActionArea>
+        <CardActions>
+          <Button
+            size="small"
+            color="primary"
+            href="https://github.com/PDKetchum/module-4-javascript-quiz"
+          >
+            GitHub Repo
+          </Button>
+        </CardActions>
       </Card>
       <Card sx={{ maxWidth: 345 }}>
-        <CardActionArea>
+        <CardActionArea href="https://pdketchum.github.io/module-6-weather-dashboard/">
           <CardMedia
             component="img"
             height="140"
-            image="/static/images/cards/contemplative-reptile.jpg"
-            alt="green iguana"
+            image="/images/Weather.png"
+            alt="Weather Dashboard Screenshot"
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              Lizard
+              Weather Dashboard
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Lizards are a widespread group of squamate reptiles, with over
-              6,000 species, ranging across all continents except Antarctica
+              Type in a city and view the forcast.
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              Technologies used: Javascript, HTML, CSS, Third-party API,
+              BootStrap.
             </Typography>
           </CardContent>
         </CardActionArea>
+        <CardActions>
+          <Button
+            size="small"
+            color="primary"
+            href="https://github.com/PDKetchum/module-6-weather-dashboard"
+          >
+            GitHub Repo
+          </Button>
+        </CardActions>
       </Card>
       <Card sx={{ maxWidth: 345 }}>
-        <CardActionArea>
+        <CardActionArea href="https://pxiong-note-taker.herokuapp.com/notes">
           <CardMedia
             component="img"
             height="140"
-            image="/static/images/cards/contemplative-reptile.jpg"
-            alt="green iguana"
+            image="/images/Notetaker.png"
+            alt="Notetaker Screenshot"
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              Lizard
+              Note Taker
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Lizards are a widespread group of squamate reptiles, with over
-              6,000 species, ranging across all continents except Antarctica
+              Note taking application to keep track of tasks, chores, reminders,
+              etc.
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              Technologies used: Javascript, HTML, CSS, Node.js, Express.js.
             </Typography>
           </CardContent>
         </CardActionArea>
+        <CardActions>
+          <Button
+            size="small"
+            color="primary"
+            href="https://github.com/PDKetchum/module-11-note-taker"
+          >
+            GitHub Repo
+          </Button>
+        </CardActions>
       </Card>
-    </div>
+    </Grid>
   );
 }
