@@ -2,7 +2,7 @@
   "name": "reactapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/PDKetchum/module-20-react-portfolio",
+  "homepage": "https://pdketchum.github.io/module-20-react-portfolio",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
