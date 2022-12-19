@@ -31,14 +31,9 @@ export default function PortfolioContainer() {
   return (
     <div>
       <div>
-        {/* We are passing the currentPage from state and the function to update it */}
-        <ResponsiveAppBar
-          // currentPage={currentPage}
-          handlePageChange={handlePageChange}
-        />
-        {/* Here we are calling the renderPage method which will return a component  */}
-        {renderPage()}
+        <ResponsiveAppBar handlePageChange={handlePageChange} />
       </div>
+      <div>{renderPage()}</div>
       <div>
         <SimpleBottomNavigation />
       </div>

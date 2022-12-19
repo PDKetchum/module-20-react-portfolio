@@ -197,6 +197,38 @@ export default function Portfolio() {
           </Button>
         </CardActions>
       </Card>
+      <Card sx={{ maxWidth: 345 }}>
+        <CardActionArea href="https://pdketchum-prima-materia.herokuapp.com/">
+          <CardMedia
+            component="img"
+            height="140"
+            image="./images/PrimaMateria.png"
+            alt="Prima Materia App"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              Prima Materia
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              A responsive Magic the Gathering App that displays searched cards,
+              saved cards on your wishlist, and the option to create decks.
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              Technologies used: Javascript, HTML, CSS, Node.js, Express.js,
+              Mongoose, MongoDB, Material UI, React, and React Spring.
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          <Button
+            size="small"
+            color="primary"
+            href="https://github.com/PDKetchum/Prima-Materia/tree/main"
+          >
+            GitHub Repo
+          </Button>
+        </CardActions>
+      </Card>
     </Grid>
   );
 }
